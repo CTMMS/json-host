@@ -1,0 +1,35 @@
+{
+    "nodes":[
+        {
+            "key": "Topic A",
+            "attributes": {
+                "x": 0,
+                "y": 0,
+                "size": 10,
+                "label": "Topic A",
+                "color": "#D8482D"
+            }
+        },
+        {
+        "key": "Topic B",
+            "attributes": {
+                "x": 1,
+                "y": 1,
+                "size": 10,
+                "label": "Topic B",
+                "color": "#B30000"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "key": "tA->tB",
+            "source": "Topic A",
+            "target": "Topic B",
+            "attributes": {
+                "size": 3,
+                "color": "#001b60"
+            }
+        }
+    ]
+}
